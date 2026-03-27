@@ -1,0 +1,16 @@
+[
+  {
+    "file": "cube.c",
+    "arguments": [
+      "clang",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-o",
+      "main",
+      "cube.c"
+    ],
+    "directory": "/Users/bonatto/Work/C/Cube",
+    "output": "main"
+  }
+]

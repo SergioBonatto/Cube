@@ -4,8 +4,6 @@
 #include <string.h>
 #include <unistd.h>
 
-
-
 float A;
 float B;
 float C;
@@ -23,9 +21,11 @@ int		width			= 160;
 int		height			= 44;
 int		bgASCIICode		= ' ';
 int		distanceCam		= 100; 
+
 float	k1				= 40; 
 float	cubeWidth		= 20; 
 float	incrementSpeed	= 0.6;
+
 float	zBuffer[160 * 44];
 char	buffer[160 * 44];
 
