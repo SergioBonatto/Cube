@@ -39,6 +39,14 @@
 !_TAG_KIND_DESCRIPTION!Make	I,makefile	/makefiles/
 !_TAG_KIND_DESCRIPTION!Make	m,macro	/macros/
 !_TAG_KIND_DESCRIPTION!Make	t,target	/targets/
+!_TAG_KIND_DESCRIPTION!Markdown	S,subsection	/level 2 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	T,l4subsection	/level 4 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	c,chapter	/chapters/
+!_TAG_KIND_DESCRIPTION!Markdown	h,hashtag	/hashtags/
+!_TAG_KIND_DESCRIPTION!Markdown	n,footnote	/footnotes/
+!_TAG_KIND_DESCRIPTION!Markdown	s,section	/sections/
+!_TAG_KIND_DESCRIPTION!Markdown	t,subsubsection	/level 3 sections/
+!_TAG_KIND_DESCRIPTION!Markdown	u,l5subsection	/level 5 sections/
 !_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
@@ -46,6 +54,7 @@
 !_TAG_PARSER_VERSION!C	1.1	/current.age/
 !_TAG_PARSER_VERSION!JSON	0.0	/current.age/
 !_TAG_PARSER_VERSION!Make	1.1	/current.age/
+!_TAG_PARSER_VERSION!Markdown	1.1	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROC_CWD	/Users/bonatto/Work/C/Cube/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
@@ -84,38 +93,39 @@ B	cube.c	/^float B;$/;"	kind:v	line:8	typeref:typename:float
 C	cube.c	/^float C;$/;"	kind:v	line:9	typeref:typename:float
 CC	Makefile	/^CC     = clang$/;"	kind:m	line:1
 CFLAGS	Makefile	/^CFLAGS = -std=c11 -Wall -Wextra -lm$/;"	kind:m	line:2
+Cube	README.md	/^# Cube$/;"	kind:c	line:1
 TARGET	Makefile	/^TARGET = main$/;"	kind:m	line:3
 _DEFAULT_SOURCE	cube.c	/^#define _DEFAULT_SOURCE$/;"	kind:d	line:1	file:
 arguments	compile_commands.json	/^    "arguments": [$/;"	kind:a	line:4	object:0
 bgASCIICode	cube.c	/^int		bgASCIICode		= ' ';$/;"	kind:v	line:22	typeref:typename:int
-buffer	cube.c	/^char	buffer[160 * 44];$/;"	kind:v	line:28	typeref:typename:char[]
-calcForSurface	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:f	line:52	typeref:typename:void	signature:(float cubeX,float cubeY,float cubeZ,int ch)
-calcX	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:f	line:30	typeref:typename:float	signature:(int i,int j,int k)
-calcY	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:f	line:38	typeref:typename:float	signature:(int i,int j,int k)
-calcZ	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:f	line:46	typeref:typename:float	signature:(int i,int j,int k)
-ch	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:52	function:calcForSurface	typeref:typename:int	file:
+buffer	cube.c	/^char	buffer[160 * 44];$/;"	kind:v	line:30	typeref:typename:char[]
+calcForSurface	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:f	line:54	typeref:typename:void	signature:(float cubeX,float cubeY,float cubeZ,int ch)
+calcX	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:f	line:32	typeref:typename:float	signature:(int i,int j,int k)
+calcY	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:f	line:40	typeref:typename:float	signature:(int i,int j,int k)
+calcZ	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:f	line:48	typeref:typename:float	signature:(int i,int j,int k)
+ch	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:54	function:calcForSurface	typeref:typename:int	file:
 clean	Makefile	/^clean:$/;"	kind:t	line:8
-cubeWidth	cube.c	/^float	cubeWidth		= 20; $/;"	kind:v	line:25	typeref:typename:float
-cubeX	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:52	function:calcForSurface	typeref:typename:float	file:
-cubeY	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:52	function:calcForSurface	typeref:typename:float	file:
-cubeZ	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:52	function:calcForSurface	typeref:typename:float	file:
+cubeWidth	cube.c	/^float	cubeWidth		= 20; $/;"	kind:v	line:26	typeref:typename:float
+cubeX	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:54	function:calcForSurface	typeref:typename:float	file:
+cubeY	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:54	function:calcForSurface	typeref:typename:float	file:
+cubeZ	cube.c	/^void calcForSurface(float cubeX, float cubeY, float cubeZ, int ch){$/;"	kind:z	line:54	function:calcForSurface	typeref:typename:float	file:
 directory	compile_commands.json	/^    "directory": "\/Users\/bonatto\/Work\/C\/Cube",$/;"	kind:s	line:13	object:0
 distanceCam	cube.c	/^int		distanceCam		= 100; $/;"	kind:v	line:23	typeref:typename:int
 file	compile_commands.json	/^    "file": "cube.c",$/;"	kind:s	line:3	object:0
 height	cube.c	/^int		height			= 44;$/;"	kind:v	line:21	typeref:typename:int
-i	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:z	line:30	function:calcX	typeref:typename:int	file:
-i	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:z	line:38	function:calcY	typeref:typename:int	file:
-i	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:z	line:46	function:calcZ	typeref:typename:int	file:
+i	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:z	line:32	function:calcX	typeref:typename:int	file:
+i	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:z	line:40	function:calcY	typeref:typename:int	file:
+i	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:z	line:48	function:calcZ	typeref:typename:int	file:
 idx	cube.c	/^int idx;$/;"	kind:v	line:18	typeref:typename:int
-incrementSpeed	cube.c	/^float	incrementSpeed	= 0.6;$/;"	kind:v	line:26	typeref:typename:float
-j	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:z	line:30	function:calcX	typeref:typename:int	file:
-j	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:z	line:38	function:calcY	typeref:typename:int	file:
-j	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:z	line:46	function:calcZ	typeref:typename:int	file:
-k	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:z	line:30	function:calcX	typeref:typename:int	file:
-k	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:z	line:38	function:calcY	typeref:typename:int	file:
-k	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:z	line:46	function:calcZ	typeref:typename:int	file:
-k1	cube.c	/^float	k1				= 40; $/;"	kind:v	line:24	typeref:typename:float
-main	cube.c	/^int main(){$/;"	kind:f	line:72	typeref:typename:int	signature:()
+incrementSpeed	cube.c	/^float	incrementSpeed	= 0.6;$/;"	kind:v	line:27	typeref:typename:float
+j	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:z	line:32	function:calcX	typeref:typename:int	file:
+j	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:z	line:40	function:calcY	typeref:typename:int	file:
+j	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:z	line:48	function:calcZ	typeref:typename:int	file:
+k	cube.c	/^float calcX(int i, int j, int k){$/;"	kind:z	line:32	function:calcX	typeref:typename:int	file:
+k	cube.c	/^float calcY(int i, int j, int k){$/;"	kind:z	line:40	function:calcY	typeref:typename:int	file:
+k	cube.c	/^float calcZ(int i, int j, int k){$/;"	kind:z	line:48	function:calcZ	typeref:typename:int	file:
+k1	cube.c	/^float	k1				= 40; $/;"	kind:v	line:25	typeref:typename:float
+main	cube.c	/^int main(){$/;"	kind:f	line:74	typeref:typename:int	signature:()
 ooz	cube.c	/^float ooz;$/;"	kind:v	line:14	typeref:typename:float
 output	compile_commands.json	/^    "output": "main"$/;"	kind:s	line:14	object:0
 run	Makefile	/^run: $(TARGET)$/;"	kind:t	line:11
@@ -125,4 +135,4 @@ xp	cube.c	/^int xp;$/;"	kind:v	line:16	typeref:typename:int
 y	cube.c	/^float y;$/;"	kind:v	line:12	typeref:typename:float
 yp	cube.c	/^int yp;$/;"	kind:v	line:17	typeref:typename:int
 z	cube.c	/^float z;$/;"	kind:v	line:13	typeref:typename:float
-zBuffer	cube.c	/^float	zBuffer[160 * 44];$/;"	kind:v	line:27	typeref:typename:float[]
+zBuffer	cube.c	/^float	zBuffer[160 * 44];$/;"	kind:v	line:29	typeref:typename:float[]
